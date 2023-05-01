@@ -1,4 +1,4 @@
-
+# Importing necessary Libraries
 from flask import *
 import os
 from werkzeug.utils import secure_filename
@@ -53,6 +53,7 @@ classes = { 0:'Speed limit (20km/h)',
             41:'End of no passing',
             42:'End no passing vehicle > 3.5 tons' }
 
+# Function to test the traffic sign image
 def image_processing(img):
     print("loading model")
     model = load_model('./model/cnn_classifier.h5')
@@ -64,11 +65,15 @@ def image_processing(img):
     Y_pred = np.argmax(model.predict(X_test), axis=1)
     return Y_pred
 
+# Function to load the index web page
 @app.route('/')
 def index():
     return render_template('index.html')
 
+# Loading the uploaded traffic sign image
 @app.route('/predict', methods=['POST'])
+
+# Function to upload the traffic sign image
 def upload():
     if request.method == 'POST':
         # Get the file from post request
