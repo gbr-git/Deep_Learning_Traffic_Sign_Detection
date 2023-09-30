@@ -3,11 +3,11 @@
 ![F3UXBZGLBZ3GR1Q](https://github.com/gbr-git/Deep_Learning_Traffic_Sign_Detection/assets/77921685/dc2fde8d-ae39-4c80-b79a-095aac21cc0e)
 
 # Deep Learning Techniques
-Convolutional Neural Networks
+## Convolutional Neural Networks
 ![cnn](https://github.com/gbr-git/Deep_Learning_Traffic_Sign_Detection/assets/77921685/f36d6dc4-b2e5-420b-8f25-0b32c18da45b)
-VGG19
+## VGG19
 ![vgg19](https://github.com/gbr-git/Deep_Learning_Traffic_Sign_Detection/assets/77921685/ebe4b7d2-f30a-4c54-9e4a-283d1516c350)
-MobileNetV2
+## MobileNetV2
 ![mobilenetv2_per](https://github.com/gbr-git/Deep_Learning_Traffic_Sign_Detection/assets/77921685/a3f438f9-b280-4f1b-911c-93d3def7f1d6)
 
 # Model Deployment
